@@ -4,7 +4,10 @@ import RepoController from "App/Controllers/Http/ReposController";
 dotenv.config();
 
 Route.get("/", async () => {
-  return { hello: "world" };
+  return {
+    Aneal:
+      "viist this to url see the list of my private repository /api/private-repos",
+  };
 });
 
 Route.get("/api/private-repos", RepoController);
